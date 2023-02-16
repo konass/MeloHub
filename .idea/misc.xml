@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SocialApp/app/src/main/res/drawable/ed_background.xml" value="0.1" />
+        <entry key="..\:/SocialApp/app/src/main/res/drawable/ic_comment.xml" value="0.1" />
+        <entry key="..\:/SocialApp/app/src/main/res/drawable/ic_exit.xml" value="0.1" />
+        <entry key="..\:/SocialApp/app/src/main/res/drawable/ic_float.xml" value="0.1225" />
+        <entry key="..\:/SocialApp/app/src/main/res/drawable/ic_home.xml" value="0.107" />
+        <entry key="..\:/SocialApp/app/src/main/res/drawable/ic_like.xml" value="0.1" />
+        <entry key="..\:/SocialApp/app/src/main/res/drawable/ic_people.xml" value="0.1" />
+        <entry key="..\:/SocialApp/app/src/main/res/drawable/search_background.xml" value="0.1" />
+        <entry key="..\:/SocialApp/app/src/main/res/drawable/send_message_background.xml" value="0.1" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/activity_post.xml" value="0.4466666666666667" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/activity_profile_edit.xml" value="0.16168478260869565" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/activity_sign_up.xml" value="0.13632246376811594" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/activity_splash.xml" value="0.1308876811594203" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/chat_item.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/comment_item.xml" value="0.14666666666666667" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/follow_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_chat.xml" value="0.16666666666666666" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_chose_action.xml" value="0.16666666666666666" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_comment.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_follow.xml" value="0.14356884057971014" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_following.xml" value="0.14356884057971014" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_likes.xml" value="0.14356884057971014" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_messaging.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_music.xml" value="0.16666666666666666" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_music_user.xml" value="0.1640625" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_notifications.xml" value="0.1796875" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_people.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_post_user.xml" value="0.1640625" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_profile_edit.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_profile_people.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_search_music.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/fragment_song.xml" value="0.14666666666666667" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/music_item.xml" value="0.4466666666666667" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/nav_header.xml" value="0.16666666666666666" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/notification_item.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/people_item.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/post_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/rv_reciever.xml" value="0.3333333333333333" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/rv_sender.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/swipe_item.xml" value="0.10052083333333334" />
+        <entry key="..\:/SocialApp/app/src/main/res/layout/track_item.xml" value="0.4466666666666667" />
+        <entry key="..\:/SocialApp/app/src/main/res/menu/bottom_nav.xml" value="0.22" />
+        <entry key="..\:/SocialApp/app/src/main/res/menu/nav_draw.xml" value="0.15729166666666666" />
+        <entry key="..\:/SocialApp/app/src/main/res/menu/profile_menu.xml" value="0.14791666666666667" />
+        <entry key="..\:/android/SocialApp/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/android/SocialApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/android/SocialApp/app/src/main/res/layout/activity_main.xml" value="0.10326086956521739" />
+        <entry key="..\:/android/SocialApp/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/android/SocialApp/app/src/main/res/layout/fragment_music.xml" value="0.10326086956521739" />
+        <entry key="..\:/android/SocialApp/app/src/main/res/menu/bottom_nav.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SocialApp</string>
+    <string name="main_text">MeloHub</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="ed_email">Enter your email</string>
+    <string name="ed_password">Enter your password</string>
+    <string name="ed_name">Enter your name </string>
+    <string name="ed_last_name">Enter last name </string>
+    <string name="login_message">Don’t have an account? Sign Up</string>
+    <string name="profile_description">My name is Catherine. I like dancing in the rain and travelling all around the world.</string>
+    <string name="ed_profile">Edit profile</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last name</string>
+    <string name="desc">Description</string>
+    <string name="followers">followers</string>
+    <string name="following">following</string>
+    <string name="posts">posts</string>
+    <string name="music">Music</string>
+    <string name="people">People</string>
+    <string name="search_hint">Find people</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="message">Message</string>
+    <string name="chat">Chat</string>
+    <string name="find_msg">Who do you want to chat with?</string>
+    <string name="find_music">Find music</string>
+    <string name="my_music">My music</string>
+    <string name="all_music">All music</string>
+    <string name="notification_channel_name">Music Channel</string>
+    <string name="notification_channel_description">Shows the currently playing music</string>
+    <string name="search_music">Search music</string>
+    <string name="listen_music">Listen music</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="tracks">Tracks</string>
+    <string name="notification_header">Notification</string>
+
+</resources>

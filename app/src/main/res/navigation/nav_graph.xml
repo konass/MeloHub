@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.socialapp.presentation.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_musicFragment"
+            app:destination="@id/musicFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profilePeopleFragment"
+            app:destination="@id/profilePeopleFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_commentFragment"
+            app:destination="@id/commentFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_choseActionFragment"
+            app:destination="@id/choseActionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_peopleFragment"
+            app:destination="@id/peopleFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.socialapp.presentation.chat.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/action_chatFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_chatFragment_to_messagingFragment"
+            app:destination="@id/messagingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.example.socialapp.presentation.music.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.example.socialapp.presentation.notifications.NotificationsFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" >
+        <action
+            android:id="@+id/action_notificationsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="com.example.socialapp.presentation.people.PeopleFragment"
+        android:label="fragment_people"
+        tools:layout="@layout/fragment_people" >
+        <action
+            android:id="@+id/action_peopleFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_peopleFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_peopleFragment_to_profilePeopleFragment"
+            app:destination="@id/profilePeopleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.socialapp.presentation.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_musicFragment"
+            app:destination="@id/musicFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_profileEditFragment"
+            app:destination="@id/profileEditFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_followFragment"
+            app:destination="@id/followFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_commentFragment"
+            app:destination="@id/commentFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_commentFragment2"
+            app:destination="@id/commentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileEditFragment"
+        android:name="com.example.socialapp.presentation.profile.ProfileEditFragment"
+        android:label="ProfileEditFragment" >
+        <action
+            android:id="@+id/action_profileEditFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <argument
+            android:name="currentUser"
+            app:argType="com.example.socialapp.domain.models.User" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilePeopleFragment"
+        android:name="com.example.socialapp.presentation.profile.ProfilePeopleFragment"
+        android:label="ProfilePeopleFragment" >
+        <argument
+            android:name="user"
+            app:argType="com.example.socialapp.domain.models.User"
+             />
+        <action
+            android:id="@+id/action_profilePeopleFragment_to_messagingFragment"
+            app:destination="@id/messagingFragment" />
+        <action
+            android:id="@+id/action_profilePeopleFragment_to_followFragment"
+            app:destination="@id/followFragment" />
+        <action
+            android:id="@+id/action_profilePeopleFragment_to_commentFragment"
+            app:destination="@id/commentFragment" />
+        <action
+            android:id="@+id/action_profilePeopleFragment_to_commentFragment2"
+            app:destination="@id/commentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messagingFragment"
+        android:name="com.example.socialapp.presentation.chat.MessagingFragment"
+        android:label="MessagingFragment" >
+        <argument
+            android:name="receiverUid"
+            app:argType="com.example.socialapp.domain.models.User" />
+        <action
+            android:id="@+id/action_messagingFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/followFragment"
+        android:name="com.example.socialapp.presentation.profile.FollowFragment"
+        android:label="fragment_follow"
+        tools:layout="@layout/fragment_follow" >
+        <argument
+            android:name="userIdToFollow"
+            app:argType="string" />
+        <argument
+            android:name="type"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_followFragment_to_profilePeopleFragment"
+            app:destination="@id/profilePeopleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/commentFragment"
+        android:name="com.example.socialapp.presentation.comment.CommentFragment"
+        android:label="CommentFragment" >
+        <argument
+            android:name="post"
+            app:argType="com.example.socialapp.domain.models.Post" />
+        <action
+            android:id="@+id/action_commentFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/songFragment"
+        android:name="com.example.socialapp.presentation.music.SongFragment"
+        android:label="fragment_song"
+        tools:layout="@layout/fragment_song" />
+    <action android:id="@+id/globalActionToSongFragment"
+        app:destination="@id/songFragment" />
+    <fragment
+        android:id="@+id/choseActionFragment"
+        android:name="com.example.socialapp.presentation.music.ChoseActionFragment"
+        android:label="fragment_chose_action"
+        tools:layout="@layout/fragment_chose_action" >
+        <action
+            android:id="@+id/action_choseActionFragment_to_musicFragment"
+            app:destination="@id/musicFragment" />
+        <action
+            android:id="@+id/action_choseActionFragment_to_searchMusicFragment"
+            app:destination="@id/searchMusicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchMusicFragment"
+        android:name="com.example.socialapp.presentation.music.SearchMusicFragment"
+        android:label="fragment_search_music"
+        tools:layout="@layout/fragment_search_music" />
+</navigation>
